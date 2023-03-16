@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { XIcon, MenuIcon } from "@heroicons/react/outline"
-
+import ToggleButton from "./ToggleButton";
 
 const navigation = [
   {name: 'Home', link: '/'},
@@ -18,8 +18,8 @@ export default function Navbar() {
       <Disclosure as = "nav" className="sticky top-0 py-2 z-10 bg-white-700 dark:bg-black-700 backdrop-filter backdrop-blur-lg bg-opacity-30 firefox:bg-opacity-90 border-b border-gray-200 dark:border-gray-600">
         {({open}) => (
           <>
-            <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8 bg-red-500">
-              <div className="relative flex items-center justify-between h-16 bg-slate-400">
+            <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8 ">
+              <div className="relative flex items-center justify-between h-16 ">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                   <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black-700 focus:outline-none focus:ring-2 focus:ring-inset dark:focus:ring-white focus:ring-black">
@@ -42,7 +42,7 @@ export default function Navbar() {
                       {navigation.slice(0,4).map((item) => (
                         <Link href={item.link} key={item.toString()} legacyBehavior passHref>
                           <a 
-                            className= "cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white dark:hover:text-black px-3 py-2 rounded-md text-lg font-RobotoC font-regular text-1xl "
+                            className= "cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white dark:hover:text-black px-3 py-2 rounded-md text-lg font-RobotoC font-regular text-1xl"
                           > {item.name}
                           </a>
                         </Link>
@@ -58,6 +58,12 @@ export default function Navbar() {
                     </div>  
                   </div>
                 </div>
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                {/* Toggle Button */}
+                  <div>
+                    <ToggleButton />
+                  </div>
+              </div>
               </div>
             </div>  
 
