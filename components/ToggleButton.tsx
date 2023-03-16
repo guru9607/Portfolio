@@ -11,7 +11,7 @@ export const ToggleButton = () => {
       <button
         aria-label="Toggle Dark Mode"
         type="button"
-        className="-mx-4 sm: -my-3 md:my-3 order-2 sm:order-3 absolute  transform -translate-x-2/4 lg:transform-none md:relative md:left-0"
+        className="-mx-4 sm: -my-3 md:my-3 order-2 sm:order-3 absolute transform -translate-x-2/4 lg:transform-none md:relative md:left-0"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
         {[isMounted] && (

@@ -48,7 +48,7 @@ module.exports = {
         },
         fontFamily: {
           Dosis: ['Dosis', 'sans-serif'],
-          Poppins: ['Poppins'],
+          Poppins: ['Poppins', "sans-serif"],
           RobotoC: ['Roboto Condensed', 'sans-serif'],
           Josefin: ['Josefin Sans', 'sans-serif'],
           Fira: ['Fira Code', 'monospace'],
