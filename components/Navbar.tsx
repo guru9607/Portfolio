@@ -42,7 +42,7 @@ export default function Navbar() {
                       {navigation.slice(0,4).map((item) => (
                         <Link href={item.link} key={item.toString()} legacyBehavior passHref>
                           <a 
-                            className= "cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white dark:hover:text-black px-3 py-2 rounded-md text-lg font-RobotoC font-regular text-1xl"
+                            className= "cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white dark:hover:text-black px-3 py-3 rounded-md text-lg font-Do font-regular"
                           > {item.name}
                           </a>
                         </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
                       <Disclosure.Button
                         as="a"
                         key={item.name}
-                        className="text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-RobotoC font-regular"
+                        className="text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base"
                       >
                           {item.name}
                       </Disclosure.Button>
