@@ -3,6 +3,7 @@ import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import coder from "../images/coder.gif"
 
+
 const About = () => {
   return (
     <div className="container px-8 py-5 mx-auto max-w-5xl mb-24">

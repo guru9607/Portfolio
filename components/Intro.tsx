@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { Fade } from "react-awesome-reveal"
 import Link from "next/link"
@@ -14,10 +13,10 @@ const Intro = () => {
         <div className="lg:px-4 lg:mt-12">
           <Fade direction="down" triggerOnce delay={200}>
             <h1 className='font-Dosis text-3xl font-semibold text-gray-900 lg:text-5xl dark:text-white'>
-              <a className="text-yellow-500">Guruprasad </a><a className="text-blue-600">Gaikwad</a>
+              <a className="text-blue-600">Guruprasad </a><a className="text-blue-600">Gaikwad</a>
             </h1>
           </Fade>
-          <div className="font-Poppins font-light mt-5 dark:text-white lg:text-2xl md:text-2xl sm:text-1xl">
+          <div className="font-RobotoC font-regular mt-5 dark:text-white lg:text-2xl md:text-2xl sm:text-xl">
             <Fade direction="up" triggerOnce delay={300}>
               <p>
                 from <a className="text-blue-600">guru9607</a> import *

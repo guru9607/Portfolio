@@ -4,13 +4,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { XIcon, MenuIcon } from "@heroicons/react/outline"
 import ToggleButton from "./ToggleButton";
 
-const navigation = [
-  {name: 'Home', link: '/'},
-  {name: 'About', link: '#about'},
-  {name: 'Skills', link: '#skills'},
-  {name: 'Projects', link: '#projects'},
-  {name: 'Resume', link: 'https://google.com'},
-]
+// const navigation = [
+//   {name: 'Home', link: '/'},
+//   {name: 'Blog', link: 'https://google.com'}
+// ]
 
 export default function Navbar() {
   return (
@@ -31,30 +28,46 @@ export default function Navbar() {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="flex-1 flex item-center justify-center sm:items-stretch sm:justify-start">
-                  <div className="flex-shrink-0 flex item-center">
+                <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                  <div className="flex-shrink-0 flex items-center">
                   <Link href="/" passHref>
                       <p>Logo</p>           
                   </Link>
                   </div> 
-                  <div className="hidden sm:block lg:pl-20 ml-20 md:ml-20 sm:ml-6">
-                    <div className="flex space-x-4">
-                      {navigation.slice(0,4).map((item) => (
+                  <div className="hidden sm:block lg:pl-20 lg:ml-52 md:ml-52 sm:ml-32">
+                    <div className="flex space-x-3">
+                      {/* {navigation.map((item) => (
                         <Link href={item.link} key={item.toString()} legacyBehavior passHref>
                           <a 
                             className= "cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white dark:hover:text-black px-3 py-3 rounded-md text-lg font-Do font-regular"
                           > {item.name}
                           </a>
                         </Link>
-                      ))}
-                      <Link href='/resume' legacyBehavior passHref>
-                        <a
-                          target="_blank"
-                          className="bg-green-700 text-white dark:text-black px-3 py-2 rounded-md font-RobotoC text-1xl "
-                        >
-                          Resume
-                        </a>
-                      </Link>
+                      ))} */}
+                        <Link href= "/" legacyBehavior passHref>
+                          <a
+                            target="_blank"
+                            className="cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 px-3 py-3 rounded-md text-lg font-Do font-regular"
+                          >
+                            Home
+                          </a>
+                        </Link>        
+                        <Link href= "https://guru9607.hashnode.dev/" legacyBehavior passHref>
+                          <a
+                            target="_blank"
+                            className="cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white px-3 py-3 rounded-md text-lg font-Do font-regular"
+                          >
+                            Blog
+                          </a>
+                        </Link>                      
+                        <Link href= "https://drive.google.com/file/d/1oyS3t0BvdK8wnRsy1-stoQAWZ1ChOx2r/view?usp=share_link" legacyBehavior passHref>
+                          <a
+                            target="_blank"
+                            className="bg-orange text-white dark:text-black px-3 py-2 rounded-md font-RobotoC text-1xl "
+                          >
+                            Resume
+                          </a>
+                        </Link>
                     </div>  
                   </div>
                 </div>
@@ -69,7 +82,7 @@ export default function Navbar() {
 
             <Disclosure.Panel className= "sm-hidden">
               <div className='px-2 pt-2 pb-3 space-y-1'>          
-                {navigation.slice(0,4).map((item) => (
+                {/* {navigation.slice(0,4).map((item) => (
                   <Link href={item.link} key={item.toString()} passHref>
                       <Disclosure.Button
                         as="a"
@@ -79,11 +92,27 @@ export default function Navbar() {
                           {item.name}
                       </Disclosure.Button>
                   </Link>
-                ))}
-                <Link href='/resume' passHref>
+                ))} */}
+                 <Link href='/' passHref>
                 <Disclosure.Button
                   as="a"
-                  className='bg-green-700 text-white dark:text-black block px-3 py-2 rounded-md text-lg font-RobotoC font-regular'
+                  className='text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base'
+                >
+                  Home
+                </Disclosure.Button>
+                </Link>
+                <Link href='https://guru9607.hashnode.dev/' passHref>
+                <Disclosure.Button
+                  as="a"
+                  className='text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base'
+                >
+                  Blog
+                </Disclosure.Button>
+                </Link>               
+                <Link href='https://drive.google.com/file/d/1oyS3t0BvdK8wnRsy1-stoQAWZ1ChOx2r/view?usp=share_link' passHref>
+                <Disclosure.Button
+                  as="a"
+                  className='bg-orange text-white dark:text-black block px-3 py-2 rounded-md text-lg font-RobotoC font-regular'
                 >
                   Resume
                 </Disclosure.Button>
@@ -93,7 +122,6 @@ export default function Navbar() {
           </>
         )}
       </Disclosure>
-      <p>Hello</p>
     </>
   )
 }

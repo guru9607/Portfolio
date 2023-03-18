@@ -20,8 +20,8 @@ module.exports = {
           'orange': '#D35269',
           'lcolor': '#0a66c2',
           'red-blue': ['#f00', '#00f'],
-          'blue-orange': ['#2563EB', '#D35269'],
-          'orange-blue': ['#D35269', '#2563EB'],
+          'blue-orange': ['#2563EB', '#a62b3b'],
+          'orange-blue': ['#a62b3b', '#2563EB'],
           'blue-green': ['#0000ff', '#00FF00'],
           'red-green-blue': ['#f00', '#0f0', '#00f'],
           'black-white-with-stops': ['#000', '#000 45%', '#fff 55%', '#fff'],
@@ -40,8 +40,10 @@ module.exports = {
         },
       },
       colors: {
-        'orange': '#D35269',
-        'lcolor': '#0a66c2'
+        'orange': '#a62b3b',
+        'lcolor': '#0a66c2',
+        'primary-color': '#D35269',
+        'secondary-color': '#2590EB'
       },
         backdropBlur: {
           sm: '6px',
