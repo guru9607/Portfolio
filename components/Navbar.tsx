@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { XIcon, MenuIcon } from "@heroicons/react/outline"
 import ToggleButton from "./ToggleButton";
+import Image from 'next/image';
+import logo from '../images/logo.png'
 
 // const navigation = [
 //   {name: 'Home', link: '/'},
@@ -31,8 +33,12 @@ export default function Navbar() {
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
                   <Link href="/" passHref>
-                      <p>Logo</p>           
-                  </Link>
+                  <Image
+                    className="lg:block h-10 w-auto"
+                    src={logo}
+                    alt="Logo"
+                  />
+                </Link>
                   </div> 
                   <div className="hidden sm:block lg:pl-20 lg:ml-52 md:ml-52 sm:ml-32">
                     <div className="flex space-x-3">

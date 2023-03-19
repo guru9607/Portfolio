@@ -10,7 +10,7 @@ export function SkillCard(props: any) {
 
   return (
 <div className="flex flex-wrap place-items-center h-screen/2 lg:mr-6 md:mb-5">
-    <div className="overflow-hidden shadow-lg transition duration-500 ease-in-out hover:shadow-2xl h-auto w-lg md:w-80 m-auto hover:border-gradient-br-orange-blue-50 border-gradient-br-blue-orange-50 dark:border-gradient-br-blue-orange-bl dark:hover:border-gradient-br-orange-blue-bl border-transparent border-solid border-4 rounded-xl -mb-5 mt-8 ">
+    <div className="overflow-hidden shadow-lg transition duration-500 ease-in-out hover:shadow-2xl h-auto w-lg md:w-80 m-auto hover:border-gradient-br-orange-blue-gray-50 border-gradient-br-blue-orange-gray-50 dark:border-gradient-br-blue-orange-bl dark:hover:border-gradient-br-orange-blue-bl border-transparent border-solid border-4 rounded-xl -mb-5 mt-8 ">
     <div className="w-full p-4 -mt-2">
     <p className="text-black dark:text-white text-xl font-regular font-Dosis -mb-6">
     {icon}

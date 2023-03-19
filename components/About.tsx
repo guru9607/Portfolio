@@ -29,7 +29,7 @@ const About = () => {
               <p className="mb-5">Hello Everyone &#128075;,</p>
               <p className="mt-5">I'm Guruprasad Gaikwad, a Computer Science and Engineering undergraduate at PCET's Nutan College of Engineering and Research. I fell in love with programming and tech in my freshman year.</p>
               <p className="mt-5">WebDev has caught my attention right from the start of my programming journey and has always startled me. I love exploring new tech and have worked with various technologies. I enjoy building REST APIs, full-stack websites, ML models, etc.</p>
-              <p className="mt-5">I &#128150; to help people around the world by trying to build something that can solve some real world problems.</p>
+              <p className="mt-5">I &#128150; to help people and contribute to the community.</p>
               <p className="mt-5 mb-5">Feel free to reach me out on the handles mentioned above and Thanks for visiting my website :) </p>
             </div>
           </div>
