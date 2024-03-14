@@ -23,7 +23,7 @@ const Intro = () => {
               </p>
             </Fade>
             <Fade direction="down" triggerOnce delay={500}>
-              <p><a className="text-blue-600">guru9607</a> = [<a className="text-orange">'Backend'</a>, <a className="text-orange">'Frontend'</a>, <a className="text-orange">'ML'</a>, <a className="text-orange">'DSA'</a>] </p>
+              <p><a className="text-blue-600">guru9607</a> = [<a className="text-orange">'React'</a>, <a className="text-orange">'AWS'</a>, <a className="text-orange">'Java'</a>, <a className="text-orange">'Spring'</a>] </p>
             </Fade>
             <Fade direction="up" triggerOnce delay={700}>
               <p><a className="text-blue-600">guru9607</a>.append(<a className="text-orange">'still learning'</a>)</p>
@@ -33,16 +33,16 @@ const Intro = () => {
                 <div><Link href="mailto:guruprasadgaikwad8@gmail.com" legacyBehavior passHref><a target="_blank"><button className="text-orange"><AiFillMail size={35}/></button></a></Link></div>
               </Fade>
               <Fade direction="up" triggerOnce delay={900}>
-                <div><Link href="https://www.linkedin.com/in/" legacyBehavior passHref><a target="_blank"><button className="text-lcolor"><AiFillLinkedin size={35}/></button></a></Link></div>
+                <div><Link href="https://www.linkedin.com/in/guru9607/" legacyBehavior passHref><a target="_blank"><button className="text-lcolor"><AiFillLinkedin size={35}/></button></a></Link></div>
               </Fade> 
               <Fade direction="up" triggerOnce delay={900}>
-                <div><Link href="https://github.com/9607" legacyBehavior passHref><a target="_blank"><button><AiFillGithub size={35}/></button></a></Link></div>
+                <div><Link href="https://github.com/guru9607" legacyBehavior passHref><a target="_blank"><button><AiFillGithub size={35}/></button></a></Link></div>
               </Fade>
               <Fade direction="up" triggerOnce delay={900}>
                 <div><Link href="https://twitter.com/Guru9272" legacyBehavior passHref><a target="_blank"><button className="text-lcolor"><AiFillTwitterCircle size={35}/></button></a></Link></div>
               </Fade>
               <Fade direction="up" triggerOnce delay={900}>
-                <div><Link href="https://hashnode.com/guru9607" legacyBehavior passHref><a target="_blank"><button ><SiHashnode size={35} /></button></a></Link></div>
+                <div><Link href="https://blog.guruprasad.codes/" legacyBehavior passHref><a target="_blank"><button ><SiHashnode size={35} /></button></a></Link></div>
               </Fade>
             </div>
           </div>

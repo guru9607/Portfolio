@@ -12,28 +12,28 @@ const Skills = () => {
         {
             id:1,
             title: "Web Development",
-            tags: ['HTML5', 'CSS3', 'Sass'],
+            tags: ['HTML5', 'CSS3', 'Tailwind'],
             image: web,
             icon: <SiTorbrowser />
         },
         {
             id:2,
             title: "Languages",
-            tags: ['C', 'C++', 'JavaScript', 'Python', 'TypeScript'],
+            tags: ['C', 'C++', 'Java', 'JavaScript', 'Python'],
             image: web,
             icon: <AiFillCode />
         },
         {
             id:3,
             title: "Backend Frameworks",
-            tags: ['Express'],
+            tags: ['Spring', 'Spring-Boot'],
             image: web,
             icon: <SiExpress />
         },
         {
             id:4,
             title: "Frontend Frameworks",
-            tags: ['NextJs', 'ReactJs'],
+            tags: ['ReactJs'],
             image: web,
             icon: <SiNextdotjs/>
         },
@@ -46,8 +46,8 @@ const Skills = () => {
         },
         {   
             id:6,
-            title: "Design",
-            tags: ['Figma', 'Canva', 'Photoshop'],
+            title: "Devops",
+            tags: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
             image: web,
             icon: <MdOutlineDesignServices />
         },

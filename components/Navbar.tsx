@@ -66,7 +66,7 @@ export default function Navbar() {
                             Blog
                           </a>
                         </Link>                      
-                        <Link href= "https://drive.google.com/file/d/1oyS3t0BvdK8wnRsy1-stoQAWZ1ChOx2r/view?usp=share_link" legacyBehavior passHref>
+                        <Link href= "https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing" legacyBehavior passHref>
                           <a
                             target="_blank"
                             className="bg-orange text-white dark:text-black px-3 py-2 rounded-md font-RobotoC text-1xl "

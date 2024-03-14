@@ -26,11 +26,11 @@ const About = () => {
         <Fade direction="up" triggerOnce delay={200}>
           <div className="lg:px-4 lg:mt-12 ">
             <div className="font-RobotoC font-light mt-5 dark:text-white lg:text-2xl md:text-2xl sm:text-1xl text-justify">
-              <p className="mb-5">Hello Everyone &#128075;,</p>
-              <p className="mt-5">I'm Guruprasad Gaikwad, a Computer Science and Engineering undergraduate at PCET's Nutan College of Engineering and Research. I fell in love with programming and tech in my freshman year.</p>
-              <p className="mt-5">WebDev has caught my attention right from the start of my programming journey and has always startled me. I love exploring new tech and have worked with various technologies. I enjoy building REST APIs, full-stack websites, ML models, etc.</p>
-              <p className="mt-5">I &#128150; to help people and contribute to the community.</p>
-              <p className="mt-5 mb-5">Feel free to reach me out on the handles mentioned above and Thanks for visiting my website :) </p>
+              <p className="mb-5">Hello Everyonne &#128075;,</p>
+              <p className="mt-5">I'm a software engineer with a passion for crafting innovative solutions that make a difference. With a background in freelancing at Digionus, I've honed my skills in HTML, Tailwind CSS, JavaScript, and WordPress, delivering tailored websites and leading teams to create robust e-commerce platforms.</p>
+              <p className="mt-5">Beyond development, I have a keen interest in cloud infrastructure and automation. My experience includes architecting AWS VPC setups, implementing auto-scaling strategies, and developing AWS resource management scripts.</p>
+              <p className="mt-5">I &#128150; to stay updated about emerging technologies and continuously seek opportunities to refine my skills and contribute meaningfully to projects. Let's connect and create something amazing together!</p>
+              <p className="mt-5 mb-5"> Feel free to reach me out on the handles mentioned above and Thanks for visiting my website :) </p>
             </div>
           </div>
         </Fade>

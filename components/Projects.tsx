@@ -1,32 +1,34 @@
 import Image from "next/image"
 import { Fade } from "react-awesome-reveal"
 import logo from "../images/guru-logo-bl.png"
-import express from "../images/express.png"
-import fr from "../images/facebook-react.png"
+import github from "../images/Github-API.png"
+import vpc from "../images/AWS_VPC.png"
+import swiggy from "../images/swiggy.jpg"
+import aws from "../images/aws.jpg"
 
 import Cards from "./cards"
 
 const Projects = () => {
   const projects = [       
-    {
+      {
         id:1,
-        title: "A facebook - clone - Backend",
-        description: "A backend server made for facebook clone website, made with NodeJs Express framework and MongoDB for database management",
-        link: "https://github.com/guru9607/facebook-clone-backend",
-        image: express,
+        title: "Tastmap",
+        description: "Created a dynamic React food ordering app with real-time order data fetching via Swiggy API, featuring client-side routing, Tailwind CSS, and custom hooks for modular data management.",
+        // link: "#",
+        image: swiggy,
         height: "240px",
         width: "350px",
-        tags: ['RestAPI', 'NodeJS', 'Express', 'MongoDB']
+        tags: ['SwiggyAPI', 'React', 'Parcel']
     },
     {
         id:2,
-        title: "Facebook - clone - Frontend",
-        description: "A frontend webapp which has functionalities like facebook made with React.",
-        link: "https://github.com/guru9607/facebook-clone-frontend",
-        image: fr,
+        title: "VPC in Production",
+        description: "Deployed a multi-AZ AWS VPC with public/private subnets, Auto Scaling, and NAT gateways.",
+        link: "#",
+        image: vpc,
         height: "240px",
         width: "350px",
-        tags: ['reactJs', 's']
+        tags: ['aws', 'vpc', 'subnet', 'NAT']
     },
     {
         id:3,
@@ -37,6 +39,26 @@ const Projects = () => {
         height: "240px",
         width: "350px",
         tags: ['nextJs', 'tailwind', 'typescript']
+    },
+    {
+      id:4,
+      title: "GitHub Repository Access Manager",
+      description: "Bash script leveraging the GitHub API to retrieve and list users of a specified repository",
+      link: "#",
+      image: github,
+      height: "240px",
+      width: "350px",
+      tags: ['Bash', 'GitHub API', 'cURL', 'jq parser']
+    },
+    {
+      id:5,
+      title: "AWS Resource Tracker",
+      description: "Developed a script to report AWS resources and used cronjob for automation",
+      link: "#",
+      image: aws,
+      height: "240px",
+      width: "350px",
+      tags: ['Bash', 'CronJob']
     },
   ]
   return (
