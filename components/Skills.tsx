@@ -1,10 +1,10 @@
 import {SkillCard} from "./Skillcard"
 import web from "../images/web.png"
-import { SiTorbrowser, SiExpress, SiNextdotjs, SiOctopusdeploy } from "react-icons/si"
+import { SiTorbrowser, SiSpring, SiNextdotjs, SiOctopusdeploy } from "react-icons/si"
 import { AiFillCode } from "react-icons/ai"
 import { MdOutlineDesignServices } from "react-icons/md"
 import { Fade } from "react-awesome-reveal"
-
+import { FaDocker } from "react-icons/fa";
 
 const Skills = () => {
 
@@ -28,7 +28,7 @@ const Skills = () => {
             title: "Backend Frameworks",
             tags: ['Spring', 'Spring-Boot'],
             image: web,
-            icon: <SiExpress />
+            icon: <SiSpring />
         },
         {
             id:4,
@@ -49,7 +49,7 @@ const Skills = () => {
             title: "Devops",
             tags: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
             image: web,
-            icon: <MdOutlineDesignServices />
+            icon: <FaDocker />
         },
     ]
     return (
