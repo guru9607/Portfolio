@@ -66,7 +66,7 @@ export default function Navbar() {
                             Blog
                           </a>
                         </Link>                      
-                        <Link href= "https://drive.google.com/file/d/1oyS3t0BvdK8wnRsy1-stoQAWZ1ChOx2r/view?usp=share_link" legacyBehavior passHref>
+                        <Link href= "https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing" legacyBehavior passHref>
                           <a
                             target="_blank"
                             className="bg-orange text-white dark:text-black px-3 py-2 rounded-md font-RobotoC text-1xl "
@@ -88,17 +88,6 @@ export default function Navbar() {
 
             <Disclosure.Panel className= "sm-hidden">
               <div className='px-2 pt-2 pb-3 space-y-1'>          
-                {/* {navigation.slice(0,4).map((item) => (
-                  <Link href={item.link} key={item.toString()} passHref>
-                      <Disclosure.Button
-                        as="a"
-                        key={item.name}
-                        className="text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base"
-                      >
-                          {item.name}
-                      </Disclosure.Button>
-                  </Link>
-                ))} */}
                  <Link href='/' passHref>
                 <Disclosure.Button
                   as="a"
@@ -115,7 +104,7 @@ export default function Navbar() {
                   Blog
                 </Disclosure.Button>
                 </Link>               
-                <Link href='https://drive.google.com/file/d/1oyS3t0BvdK8wnRsy1-stoQAWZ1ChOx2r/view?usp=share_link' passHref>
+                <Link href='https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing' passHref>
                 <Disclosure.Button
                   as="a"
                   className='bg-orange text-white dark:text-black block px-3 py-2 rounded-md text-lg font-RobotoC font-regular'

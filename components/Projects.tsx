@@ -1,43 +1,64 @@
 import Image from "next/image"
 import { Fade } from "react-awesome-reveal"
 import logo from "../images/guru-logo-bl.png"
-import express from "../images/express.png"
-import fr from "../images/facebook-react.png"
+import github from "../images/github-api.png"
+import aws from "../images/aws.png"
+import swiggy from "../images/react-swiggy.jpg"
 
 import Cards from "./cards"
 
 const Projects = () => {
   const projects = [       
     {
-        id:1,
-        title: "A facebook - clone - Backend",
-        description: "A backend server made for facebook clone website, made with NodeJs Express framework and MongoDB for database management",
-        link: "https://github.com/guru9607/facebook-clone-backend",
-        image: express,
-        height: "240px",
-        width: "350px",
-        tags: ['RestAPI', 'NodeJS', 'Express', 'MongoDB']
-    },
-    {
-        id:2,
-        title: "Facebook - clone - Frontend",
-        description: "A frontend webapp which has functionalities like facebook made with React.",
-        link: "https://github.com/guru9607/facebook-clone-frontend",
-        image: fr,
-        height: "240px",
-        width: "350px",
-        tags: ['reactJs', 's']
-    },
-    {
-        id:3,
-        title: "Personal Portfolio",
-        description: "Personal Portfolio website created with NextJs, Tailwind CSS and TypeScript.",
-        link: "https://github.com/guru9607/Portfolio",
-        image: logo,
-        height: "240px",
-        width: "350px",
-        tags: ['nextJs', 'tailwind', 'typescript']
-    },
+      id:1,
+      title: "Tastmap",
+      description: "Created a dynamic React food ordering app with real-time order data fetching via Swiggy API, featuring client-side routing, Tailwind CSS, and custom hooks for modular data management.",
+      link: "#",
+      image: swiggy,
+      height: "240px",
+      width: "350px",
+      tags: ['SwiggyAPI', 'React', 'Parcel']
+  },
+  {
+      id:2,
+      title: "Secure & Scalable AWS VPC with Auto Scaling (Multi-AZ)",
+      description: "Deployed a multi-AZ AWS VPC with public/private subnets, Auto Scaling, and NAT gateways.",
+      link: "#",
+      image: aws,
+      height: "240px",
+      width: "350px",
+      tags: ['aws', 'vpc', 'subnet', 'NAT']
+  },
+  {
+      id:3,
+      title: "Personal Portfolio",
+      description: "Personal Portfolio website created with NextJs, Tailwind CSS and TypeScript.",
+      link: "https://github.com/guru9607/Portfolio",
+      image: logo,
+      height: "240px",
+      width: "350px",
+      tags: ['nextJs', 'tailwind', 'typescript']
+  },
+  {
+    id:4,
+    title: "GitHub Repository Access Manager",
+    description: "Leveraged the GitHub API to retrieve and list users of a specified repository",
+    link: "#",
+    image: github,
+    height: "240px",
+    width: "350px",
+    tags: ['Bash', 'GitHub API', 'cURL', 'jq parser']
+  },
+  {
+    id:5,
+    title: "AWS Resource Tracker",
+    description: "Developed a script to report AWS resources and used cronjob for automation",
+    link: "#",
+    image: aws,
+    height: "240px",
+    width: "350px",
+    tags: ['Bash', 'CronJob']
+  },
   ]
   return (
     <div className="container px-8 py-3 mx-auto max-w-5xl">
