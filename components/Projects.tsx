@@ -4,7 +4,6 @@ import logo from "../images/guru-logo-bl.png"
 import github from "../images/github-api.png"
 import aws from "../images/aws.png"
 import swiggy from "../images/react-swiggy.jpg"
-
 import Cards from "./cards"
 
 const Projects = () => {

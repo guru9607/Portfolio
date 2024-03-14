@@ -46,8 +46,8 @@ const Skills = () => {
         },
         {   
             id:6,
-            title: "Design",
-            tags: ['Jenkins', 'Docker', 'Kubernetes'],
+            title: "Devops",
+            tags: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
             image: web,
             icon: <FaDocker />
         },
