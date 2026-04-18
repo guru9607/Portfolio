@@ -11,45 +11,45 @@ const Skills = () => {
     const skills = [
         {
             id:1,
-            title: "Web Development",
-            tags: ['HTML5', 'CSS3', 'Tailwind'],
+            title: "Frontend",
+            tags: ['ReactJs', 'Tailwind', 'NextJs', 'TypeScript'],
             image: web,
-            icon: <SiTorbrowser />
+            icon: <SiNextdotjs/>
         },
         {
             id:2,
-            title: "Languages",
-            tags: ['C', 'C++', 'Java', 'JavaScript', 'Python'],
+            title: "Backend & DB",
+            tags: ['.NET', 'C#', 'MySQL', 'Node.js'],
             image: web,
             icon: <AiFillCode />
         },
         {
             id:3,
-            title: "Backend Frameworks",
-            tags: ['Spring', 'Spring-Boot'],
+            title: "College Stack",
+            tags: ['Java', 'Spring Boot', 'Python', 'C++'],
             image: web,
             icon: <SiSpring />
         },
         {
             id:4,
-            title: "Frontend Frameworks",
-            tags: ['ReactJs'],
+            title: "DevOps",
+            tags: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
             image: web,
-            icon: <SiNextdotjs/>
+            icon: <FaDocker />
         },
         {
             id:5,
-            title: "Deployment",
-            tags: ['Netlify', 'Vercel'],
+            title: "Tools",
+            tags: ['Git', 'Postman', 'MySQL Workbench'],
             image: web,
             icon: <SiOctopusdeploy />
         },
         {   
             id:6,
-            title: "Devops",
-            tags: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
+            title: "Web Basics",
+            tags: ['HTML5', 'CSS3', 'WordPress'],
             image: web,
-            icon: <FaDocker />
+            icon: <SiTorbrowser />
         },
     ]
     return (

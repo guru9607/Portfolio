@@ -10,54 +10,54 @@ const Projects = () => {
   const projects = [       
     {
       id:1,
-      title: "Tastmap",
-      description: "Created a dynamic React food ordering app with real-time order data fetching via Swiggy API, featuring client-side routing, Tailwind CSS, and custom hooks for modular data management.",
+      title: "Enterprise Property Portals @ Yardi",
+      description: "Spearheading the development of mission-critical customer portals for real estate giants. Engineered high-complexity modules for Space Selection, Automated Payments, and secure Document Workflows using React and .NET.",
       link: "#",
+      image: logo,
+      height: "240px",
+      width: "350px",
+      tags: ['React', '.NET', 'MySQL', 'Enterprise']
+    },
+    {
+      id:2,
+      title: "Tastmap - Live Food Ordering",
+      description: "A dynamic React application integrating Swiggy's live API. Features real-time order data fetching, custom hooks for modular state management, and a responsive Tailwind CSS interface.",
+      link: "https://github.com/guru9607/Food-ordering-app",
       image: swiggy,
       height: "240px",
       width: "350px",
-      tags: ['SwiggyAPI', 'React', 'Parcel']
-  },
-  {
-      id:2,
-      title: "Secure & Scalable AWS VPC with Auto Scaling (Multi-AZ)",
-      description: "Deployed a multi-AZ AWS VPC with public/private subnets, Auto Scaling, and NAT gateways.",
+      tags: ['React', 'Swiggy API', 'Tailwind']
+    },
+    {
+      id:3,
+      title: "AWS Secure VPC Architecture",
+      description: "Architected a multi-AZ AWS VPC with public/private subnets, Auto-Scaling groups, and NAT gateways. Ensured high availability and security for cloud-native applications.",
       link: "#",
       image: aws,
       height: "240px",
       width: "350px",
-      tags: ['aws', 'vpc', 'subnet', 'NAT']
-  },
-  {
-      id:3,
-      title: "Personal Portfolio",
-      description: "Personal Portfolio website created with NextJs, Tailwind CSS and TypeScript.",
+      tags: ['AWS', 'VPC', 'Infrastructure']
+    },
+    {
+      id:4,
+      title: "GitHub Repo Manager",
+      description: "Automated tool leveraging the GitHub API to manage repository access and user listings. Built with Bash for efficient CLI-based resource management.",
+      link: "https://github.com/guru9607/Shell-Scripting-Projects",
+      image: github,
+      height: "240px",
+      width: "350px",
+      tags: ['Bash', 'GitHub API', 'Automation']
+    },
+    {
+      id:5,
+      title: "Personal Portfolio v2",
+      description: "Modern portfolio designed to showcase the transition from student to enterprise software engineer. Built with Next.js, TypeScript, and a focus on premium UI/UX.",
       link: "https://github.com/guru9607/Portfolio",
       image: logo,
       height: "240px",
       width: "350px",
-      tags: ['nextJs', 'tailwind', 'typescript']
-  },
-  {
-    id:4,
-    title: "GitHub Repository Access Manager",
-    description: "Leveraged the GitHub API to retrieve and list users of a specified repository",
-    link: "#",
-    image: github,
-    height: "240px",
-    width: "350px",
-    tags: ['Bash', 'GitHub API', 'cURL', 'jq parser']
-  },
-  {
-    id:5,
-    title: "AWS Resource Tracker",
-    description: "Developed a script to report AWS resources and used cronjob for automation",
-    link: "#",
-    image: aws,
-    height: "240px",
-    width: "350px",
-    tags: ['Bash', 'CronJob']
-  },
+      tags: ['Next.js', 'TypeScript', 'Tailwind']
+    },
   ]
   return (
     <div className="container px-8 py-3 mx-auto max-w-5xl">

@@ -7,32 +7,44 @@ const cards = (props: any) => {
   const { title, image, description, tags, height, width, link } = props;
 
   return (
-    <div className = "flex flex-wrap place-items-center h-screen/2 lg:mr-6 md:mb-5 ">
-      <div className="overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-3 hover:scale-105 hover:shadow-2xl rounded-lg h-90 w-63 md:w-80 cursor-pointer m-auto hover:border-gradient-br-orange-blue-gray-50 border-gradient-br-blue-orange-gray-50 dark:border-gradient-br-blue-orange-bl dark:hover:border-gradient-br-orange-blue-bl border-transparent border-solid border-4 mb-5 mt-10">
-        <Image 
-          alt = {title}
-          src = {image}
-          priority={true}
-          height = {height}
-          width = {width}
-          className = "dark: bg-white"
-        />
-        <div className="w-full p-4">
-          <Link href={link} passHref>
-              <p className="text-orange text-2xl font-regular font-Dosis mb-2 hover:underline">
-                  {title}
-              </p>
-
-          </Link>
-          <p className="text-gray-900 dark:text-white font-light font-RobotoC text-lg">
-              {description}
+    <div className="p-4 w-full">
+      <div className="group relative bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100 dark:border-gray-800 h-full flex flex-col">
+        <div className="relative h-48 w-full overflow-hidden">
+          <Image 
+            alt={title}
+            src={image}
+            layout="fill"
+            objectFit="cover"
+            className="transition-transform duration-700 group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
+            <span className="text-white text-xs font-medium px-2 py-1 rounded bg-blue-600/80 backdrop-blur-sm">View Project</span>
+          </div>
+        </div>
+        
+        <div className="p-6 flex flex-col flex-1">
+          {link && link !== "#" ? (
+            <Link href={link} legacyBehavior passHref>
+              <a target="_blank" className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors mb-2 block">
+                {title}
+              </a>
+            </Link>
+          ) : (
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
+              {title}
+            </h3>
+          )}
+          
+          <p className="text-gray-600 dark:text-gray-400 font-light text-sm line-clamp-3 mb-4 flex-1">
+            {description}
           </p>
-          <div className="flex flex-wrap justify-start items-center py-3 text-xs text-white font-light font-Dosis">
-          {tags.map((tag: string, i: number) => (
-            <span className="m-1 px-2 py-1 rounded bg-blue-600" key={tag.toString()}>
-            {tags[i]}
-            </span>
-          ))}
+          
+          <div className="flex flex-wrap gap-2 pt-4 border-t border-gray-100 dark:border-gray-800">
+            {tags.map((tag: string, i: number) => (
+              <span className="text-[10px] uppercase tracking-wider font-bold text-blue-600 dark:text-blue-400" key={i}>
+                #{tag}
+              </span>
+            ))}
           </div>
         </div>
       </div> 

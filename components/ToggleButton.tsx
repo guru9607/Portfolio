@@ -1,10 +1,12 @@
 import React from "react";
 import { useTheme } from "next-themes";
-import useIsMounted from 'react-is-mounted-hook'
-
 export const ToggleButton = () => {
-    const isMounted = useIsMounted()
+    const [mounted, setMounted] = React.useState(false)
     const {theme, setTheme} = useTheme()
+    
+    React.useEffect(() => {
+        setMounted(true)
+    }, [])
     
 
     return (
@@ -14,7 +16,7 @@ export const ToggleButton = () => {
         className="-mx-4 sm: -my-3 md:my-3 order-2 sm:order-3 absolute transform -translate-x-2/4 lg:transform-none md:relative md:left-0"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
-        {[isMounted] && (
+        {mounted && (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

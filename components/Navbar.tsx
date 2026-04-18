@@ -32,7 +32,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                  <Link href="/" passHref>
+                  <Link href="/" legacyBehavior passHref>
                   <Image
                     className="lg:block h-10 w-auto"
                     src={logo}
@@ -52,16 +52,22 @@ export default function Navbar() {
                       ))} */}
                         <Link href= "/" legacyBehavior passHref>
                           <a
-                            target="_blank"
-                            className="cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 px-3 py-3 rounded-md text-lg font-Do font-regular"
+                            className="cursor-pointer text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-3 rounded-md text-lg font-medium transition-colors"
                           >
                             Home
                           </a>
                         </Link>        
+                        <Link href= "#experience" legacyBehavior passHref>
+                          <a
+                            className="cursor-pointer text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-3 rounded-md text-lg font-medium transition-colors"
+                          >
+                            Experience
+                          </a>
+                        </Link>
                         <Link href= "https://guru9607.hashnode.dev/" legacyBehavior passHref>
                           <a
                             target="_blank"
-                            className="cursor-pointer text-black-700 dark:text-white hover:bg-blue-600 hover:text-white px-3 py-3 rounded-md text-lg font-Do font-regular"
+                            className="cursor-pointer text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-3 rounded-md text-lg font-medium transition-colors"
                           >
                             Blog
                           </a>
@@ -69,7 +75,7 @@ export default function Navbar() {
                         <Link href= "https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing" legacyBehavior passHref>
                           <a
                             target="_blank"
-                            className="bg-orange text-white dark:text-black px-3 py-2 rounded-md font-RobotoC text-1xl "
+                            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold text-lg transition-all shadow-md hover:shadow-lg"
                           >
                             Resume
                           </a>
@@ -88,7 +94,7 @@ export default function Navbar() {
 
             <Disclosure.Panel className= "sm-hidden">
               <div className='px-2 pt-2 pb-3 space-y-1'>          
-                 <Link href='/' passHref>
+                 <Link href='/' legacyBehavior passHref>
                 <Disclosure.Button
                   as="a"
                   className='text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base'
@@ -96,7 +102,7 @@ export default function Navbar() {
                   Home
                 </Disclosure.Button>
                 </Link>
-                <Link href='https://guru9607.hashnode.dev/' passHref>
+                <Link href='https://guru9607.hashnode.dev/' legacyBehavior passHref>
                 <Disclosure.Button
                   as="a"
                   className='text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base'
@@ -104,7 +110,7 @@ export default function Navbar() {
                   Blog
                 </Disclosure.Button>
                 </Link>               
-                <Link href='https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing' passHref>
+                <Link href='https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing' legacyBehavior passHref>
                 <Disclosure.Button
                   as="a"
                   className='bg-orange text-white dark:text-black block px-3 py-2 rounded-md text-lg font-RobotoC font-regular'

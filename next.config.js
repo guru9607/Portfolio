@@ -5,10 +5,9 @@ module.exports = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  StrictReactMode: true,
+  reactStrictMode: true,
     /* Add Your Scss File Folder Path Here */
   sassOptions: {
   includePaths: [path.join(__dirname, 'styles')],
   },
-  defaultMode: 'dark',
 }
