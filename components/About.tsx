@@ -27,12 +27,12 @@ const About = () => {
           </Fade>
         </div>
         <Fade direction="up" triggerOnce delay={200}>
-          <div className="lg:px-4 lg:mt-12 ">
-            <div className="font-RobotoC font-light mt-5 dark:text-white lg:text-2xl md:text-2xl sm:text-1xl text-justify">
-              <p className="mb-5">Hello Everyone &#128075;,</p>
-              <p className="mt-5">I'm a Software Engineer with a passion for building scalable, high-impact applications. Currently, I'm at <strong>Yardi Software</strong> (joined July 2024), where I specialize in <strong>React, .NET, and MySQL</strong>.</p>
-              <p className="mt-5">My work primarily focuses on architecting and implementing mission-critical features for customer portals. This includes high-complexity modules like <strong>Space Selection, Auto Payment systems, and secure Document Uploads</strong>. I enjoy the challenge of bridging seamless frontend experiences with robust backend microservices.</p>
-              <p className="mt-5">Before Yardi, I spent my college years honing my skills as a freelance developer at Digionus, leading teams to build e-commerce platforms and modern web solutions. This foundation in full-stack development and client-side problem-solving drives my approach today.</p>
+          <div className="lg:px-3 lg:mt-12 ">
+            <div className="font-Poppins font-normal mt-5 text-gray-700 dark:text-gray-300 lg:text-xl md:text-xl sm:text-lg leading-relaxed text-left">
+              <p className="mb-5">Hello Everyone 👋,</p>
+              <p className="mt-5">I'm a Software Engineer with a passion for building scalable, high-impact applications. Currently, I'm at <strong>Yardi Systems</strong> (joined July 2024), where I specialize in <strong>React, .NET, and MySQL</strong>.</p>
+              <p className="mt-5">I also serve as the <strong>Technical Director</strong> of <strong>interACT</strong>, a UN-aligned global youth initiative, where I architected and built their core digital platform from the ground up.</p>
+              <p className="mt-5">At Yardi, my work focuses on engineering mission-critical features for enterprise property management portals, including complex modules like <strong>Automated Payments, Portal Migrations, and secure Document Workflows</strong>.</p>
               <p className="mt-5 mb-5"> I'm always eager to discuss emerging tech or collaborate on innovative projects. Let's connect!</p>
             </div>
           </div>

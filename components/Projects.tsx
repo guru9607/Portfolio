@@ -10,8 +10,18 @@ const Projects = () => {
   const projects = [       
     {
       id:1,
+      title: "interACT Platform",
+      description: "Technical Director for a UN-aligned global youth initiative. Architected and built the full platform from scratch, including participant portals and a module delivery system serving a global audience.",
+      link: "https://theinteract.org",
+      image: logo,
+      height: "240px",
+      width: "350px",
+      tags: ['Next.js', 'React', 'Node.js', 'Impact']
+    },
+    {
+      id:2,
       title: "Enterprise Property Portals @ Yardi",
-      description: "Spearheading the development of mission-critical customer portals for real estate giants. Engineered high-complexity modules for Space Selection, Automated Payments, and secure Document Workflows using React and .NET.",
+      description: "Engineering mission-critical customer portals. Developed high-complexity modules for Automated Payments, Portal Migrations, and secure Document Workflows using React and .NET.",
       link: "#",
       image: logo,
       height: "240px",
@@ -19,7 +29,7 @@ const Projects = () => {
       tags: ['React', '.NET', 'MySQL', 'Enterprise']
     },
     {
-      id:2,
+      id:3,
       title: "Tastmap - Live Food Ordering",
       description: "A dynamic React application integrating Swiggy's live API. Features real-time order data fetching, custom hooks for modular state management, and a responsive Tailwind CSS interface.",
       link: "https://github.com/guru9607/Food-ordering-app",
@@ -29,7 +39,7 @@ const Projects = () => {
       tags: ['React', 'Swiggy API', 'Tailwind']
     },
     {
-      id:3,
+      id:4,
       title: "AWS Secure VPC Architecture",
       description: "Architected a multi-AZ AWS VPC with public/private subnets, Auto-Scaling groups, and NAT gateways. Ensured high availability and security for cloud-native applications.",
       link: "#",
@@ -39,7 +49,7 @@ const Projects = () => {
       tags: ['AWS', 'VPC', 'Infrastructure']
     },
     {
-      id:4,
+      id:5,
       title: "GitHub Repo Manager",
       description: "Automated tool leveraging the GitHub API to manage repository access and user listings. Built with Bash for efficient CLI-based resource management.",
       link: "https://github.com/guru9607/Shell-Scripting-Projects",
@@ -47,16 +57,6 @@ const Projects = () => {
       height: "240px",
       width: "350px",
       tags: ['Bash', 'GitHub API', 'Automation']
-    },
-    {
-      id:5,
-      title: "Personal Portfolio v2",
-      description: "Modern portfolio designed to showcase the transition from student to enterprise software engineer. Built with Next.js, TypeScript, and a focus on premium UI/UX.",
-      link: "https://github.com/guru9607/Portfolio",
-      image: logo,
-      height: "240px",
-      width: "350px",
-      tags: ['Next.js', 'TypeScript', 'Tailwind']
     },
   ]
   return (

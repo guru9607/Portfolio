@@ -33,7 +33,7 @@ const Intro = () => {
               </Fade>
               <Fade direction="down" triggerOnce delay={500}>
                 <p className="mt-2">
-                  guru9607 = [<span className="text-orange-600 dark:text-orange-400">'React'</span>, <span className="text-orange-600 dark:text-orange-400">'.NET'</span>, <span className="text-orange-600 dark:text-orange-400">'MySQL'</span>, <span className="text-orange-600 dark:text-orange-400">'AWS'</span>]
+                  guru9607 = [<span className="text-orange-600 dark:text-orange-400">'React'</span>, <span className="text-orange-600 dark:text-orange-400">'.NET'</span>, <span className="text-orange-600 dark:text-orange-400">'MySQL'</span>, <span className="text-orange-600 dark:text-orange-400">'C#'</span>]
                 </p>
               </Fade>
               <Fade direction="up" triggerOnce delay={700}>

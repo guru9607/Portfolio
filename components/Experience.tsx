@@ -4,27 +4,29 @@ import { Fade } from 'react-awesome-reveal';
 const Experience = () => {
     const experiences = [
         {
-            company: "Yardi Software",
+            company: "Yardi Systems",
             role: "Software Engineer",
             duration: "July 2024 – Present",
             description: [
-                "Developing and maintaining large-scale customer portals using React, .NET, and MySQL.",
-                "Implemented complex functionalities including Space Selection, Auto Payment systems, and Document Upload modules.",
-                "Optimizing frontend performance and ensuring seamless integration between React components and .NET microservices.",
-                "Collaborating with cross-functional teams to deliver robust software solutions for real estate management."
+                "Formally recognized for high-quality contributions within the first year on an enterprise platform.",
+                "Contributed to the complete portal migration from VB.NET to C# .NET and React -- a high-trust modernization effort on a live multi-tenant platform.",
+                "Implemented the Autopay feature end-to-end, enabling automated recurring rent collection for students.",
+                "Built full-stack features including roommate matching, multi-file document upload, and maintenance request handling.",
+                "Resolved a critical stress-testing failure that was breaking the OLE flow and causing payment failures.",
+                "Eliminated redundant API calls, improving platform-wide data-fetching efficiency for lakhs of concurrent users."
             ],
-            tech: ["React", ".NET", "MySQL", "C#", "Microservices"]
+            tech: ["React", ".NET", "C#", "MySQL", "VB.NET"]
         },
         {
-            company: "Digionus",
-            role: "Freelance Software Developer",
-            duration: "Previous",
+            company: "Infosys Springboard",
+            role: "Software Engineer Intern",
+            duration: "April 2024 – June 2024",
             description: [
-                "Delivered tailored websites and led teams to create robust e-commerce platforms.",
-                "Honed skills in HTML, Tailwind CSS, JavaScript, and WordPress.",
-                "Worked directly with clients to translate business requirements into technical solutions."
+                "Selected as one of the interns from a pool of 35,000+ applicants.",
+                "Contributed to the development of a full-stack matrimonial website as part of a team of four.",
+                "Collaborated across frontend (Angular) and backend (Spring Boot) layers to troubleshoot and implement solutions."
             ],
-            tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "WordPress"]
+            tech: ["Angular", "Spring Boot", "MySQL", "Java"]
         }
     ];
 

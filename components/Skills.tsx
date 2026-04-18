@@ -12,42 +12,42 @@ const Skills = () => {
         {
             id:1,
             title: "Frontend",
-            tags: ['ReactJs', 'Tailwind', 'NextJs', 'TypeScript'],
+            tags: ['React', 'Angular', 'Tailwind CSS', 'TypeScript'],
             image: web,
             icon: <SiNextdotjs/>
         },
         {
             id:2,
             title: "Backend & DB",
-            tags: ['.NET', 'C#', 'MySQL', 'Node.js'],
+            tags: ['.NET', 'ASP.NET Core', 'C#', 'MySQL'],
             image: web,
             icon: <AiFillCode />
         },
         {
             id:3,
             title: "College Stack",
-            tags: ['Java', 'Spring Boot', 'Python', 'C++'],
+            tags: ['Java', 'Spring Boot', 'C++', 'Python'],
             image: web,
             icon: <SiSpring />
         },
         {
             id:4,
-            title: "DevOps",
-            tags: ['AWS', 'Docker', 'Kubernetes', 'Jenkins'],
+            title: "DevOps & Cloud",
+            tags: ['AWS', 'Docker', 'Git', 'GitHub'],
             image: web,
             icon: <FaDocker />
         },
         {
             id:5,
             title: "Tools",
-            tags: ['Git', 'Postman', 'MySQL Workbench'],
+            tags: ['Postman', 'Visual Studio', 'VS Code', 'MySQL Workbench'],
             image: web,
             icon: <SiOctopusdeploy />
         },
         {   
             id:6,
             title: "Web Basics",
-            tags: ['HTML5', 'CSS3', 'WordPress'],
+            tags: ['HTML5', 'CSS3', 'JavaScript', 'WordPress'],
             image: web,
             icon: <SiTorbrowser />
         },

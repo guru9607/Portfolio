@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Guruprasad Avinash Gaikwad
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\vspace*{0.5em}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Guruprasad Avinash Gaikwad} & \faEnvelope\ \href{mailto:guruprasadgaikwad8@gmail.com}{guruprasadgaikwad8@gmail.com} \\
+  \faGlobe\ \href{https://itsguru.netlify.app}{itsguru.netlify.app} &
+  \faLinkedin\ \href{https://linkedin.com/in/guru9607/}{linkedin.com/in/guru9607} \\
+  \faGithub\ \href{https://github.com/guru9607}{github.com/guru9607} &
+  \faPhone\ +91-9607700199 \\
+\end{tabular*}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PCET's Nutan College of Engineering and Research}{Sep. 2020 -- Present}
+      {B.Tech in Computer Science; CGPA: 8.51}{Pune, Maharashtra}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[left=-0.07in, label={}]
+    \setlength{\itemsep}{-1pt}
+    \small{
+      \item \textbf{Languages}: C\#, Java, JavaScript (Beginner)
+      \item \textbf{Technologies}: .NET, ASP.NET Core, React, Spring Boot, Angular (Beginner)
+      \item \textbf{Databases}: MySQL
+      \item \textbf{Developer Tools}: Git, GitHub, Postman, Visual Studio
+    }
+\end{itemize}
+\vspace{-15pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Yardi Systems}{July 2024 -- Present}
+    {Software Engineer --- .NET, C\#, React, MySQL}{Pune, Maharashtra}
+  \resumeItemListStart
+    \resumeItem{Formally recognized for high-quality contributions within the first year on an enterprise platform serving \textbf{200+ universities across the US}.}
+    \resumeItem{Contributed to the \textbf{complete portal migration from VB.NET to C\# .NET and React} -- a high-trust modernization effort on a live multi-tenant platform used by lakhs of students.}
+    \resumeItem{Implemented the \textbf{Autopay feature} end-to-end, enabling automated recurring rent collection for students --- reducing payment defaults and directly strengthening revenue predictability for enterprise property management clients.}
+    \resumeItem{Built full-stack features across the Resident Portal including roommate matching, multi-file document upload, maintenance request handling, contributing across three interconnected repositories.}
+    \resumeItem{Resolved a \textbf{critical stress-testing failure} that was breaking the OLE flow and causing payment failures - preventing direct revenue loss for clients and ensuring platform stability before production release.}
+    \resumeItem{Resolved cross-repo data sync defects and eliminated redundant API calls, improving platform-wide data-fetching efficiency for \textbf{lakhs} of concurrent student users.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Infosys Springboard}{April 2024 -- June 2024}
+    {Software Engineer Intern --- Angular, Spring Boot, MySQL}{Pune, Maharashtra}
+  \resumeItemListStart
+    \resumeItem{Selected as one of interns from a pool of 35,000+ applicants.}
+    \resumeItem{Contributed to the development of a full-stack \textbf{matrimonial website} as part of a team of four, spanning frontend (Angular) and backend (Spring Boot) layers.}
+    \resumeItem{Actively collaborated with team members to brainstorm ideas, troubleshoot issues, and implement solutions.}
+  \resumeItemListEnd
+
+  % \resumeSubheading
+  %   {Digionus Marketing Agency}{March 2022 -- August 2022}
+  %   {Freelancer and Software Engineer Intern --  Tailwind CSS, WordPress, Photoshop}{Pune, Maharashtra}
+  % \resumeItemListStart
+  %   \resumeItem{Independently \textbf{developed and deployed} a professional website, leading to subsequent recruitment as an intern.}
+  %   \resumeItem{Trained three interns for collaboratively developing an e-commerce site for \textbf{AU Enterprises} showcasing hardware products, while also leveraging design skills for logo and banner creation.}
+  % \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{interACT} $|$ \emph{Next.js, React, Node.js} $|$ \href{https://theinteract.org}{theinteract.org} $|$ \href{https://github.com/guru9607/interACT}{github.com/guru9607/interACT}}{}
+  \resumeItemListStart
+    \resumeItem{Serving as \textbf{Technical Director (pro-bono)} of interACT, a \textbf{UN-aligned global youth initiative} focused on inner resilience, mental well-being, and sustainable development.}
+    \resumeItem{Architected and built the full platform from the ground up, including the public-facing website, participant portals, and module delivery system.}
+    \resumeItem{The platform aligns with \textbf{UN Sustainable Development Goals} and serves a global audience across multiple countries.}
+  \resumeItemListEnd
+
+  % \resumeProjectHeading
+  %   {\textbf{TasteMap} $|$ \emph{React, Parcel Bundler, Tailwind CSS, Swiggy API}}{}
+  % \resumeItemListStart
+  %   \resumeItem{Developed a dynamic food ordering app to showcase real-time data about restaurants.}
+  %   \resumeItem{Leveraged the Swiggy API to fetch live order data, providing users with a seamless ordering experience.}
+  % \resumeItemListEnd
+
+  % \resumeProjectHeading
+  %   {\textbf{VPC with Public-Private Subnet in Production} $|$ \emph{AWS VPC, EC2, Load Balancers, Bastion Host}}{}
+  % \resumeItemListStart
+  %   \resumeItem{Implemented a multi-AZ AWS VPC architecture with public/private subnets for load balancer and server separation.}
+  %   \resumeItem{Integrated Auto Scaling for dynamic server provisioning based on demand, improving resource utilization and cost.}
+  %   \resumeItem{Used NAT gateways within public subnets to grant private servers secure, controlled outbound internet access.}
+  % \resumeItemListEnd
+
+  % \resumeProjectHeading
+  %   {\textbf{StudentGradeRegistry} $|$ \emph{REST API, Spring Boot, Postman, MySQL}}{}
+  % \resumeItemListStart
+  %   \resumeItem{Designed and implemented a REST API for grade and coursework management, leveraging Spring Boot to interact with a MySQL database.}
+  %   \resumeItem{The API empowers students to access, submit, and manage grades and courses with ease.}
+  %   \resumeItem{Built a three-tier application architecture comprising presentation, business logic, and data access layers.}
+  % \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+% %-----------CERTIFICATIONS-----------
+% \section{Certifications}
+% \begin{itemize}[left=0.05in, label={\textbullet}]
+%   \setlength{\itemsep}{-2pt}
+%   \item \small{Postman API Fundamentals Student Expert --- \textit{Postman}}
+%   \item \small{Java Foundation Certification --- \textit{Infosys}}
+% \end{itemize}
+
+%-----------LEADERSHIP / EXTRACURRICULAR-----------
+\section{Leadership \& Extracurricular}
+\begin{itemize}[left=0.05in, label={\textbullet}]
+  \setlength{\itemsep}{-2pt}
+  \item \small{Led multiple placement drives in \textbf{PCET's Training and Placement Cell}, managing a team of \textbf{200+ volunteers}.}
+  \item \small{Co-ordinated \textbf{80+ meditation workshops} benefiting \textbf{3,000+ individuals}, promoting core human values and well-being.}
+  \item \small{Conducted awareness sessions on \textbf{Digital Wellness and Meditation} at \textbf{10+ schools and colleges}, empowering youth with tools for mindful and balanced technology use.}
+\end{itemize}
+
+\vspace{3pt}
+\textbf{\small Hobbies:} \small{Meditation, Chess}
+
+\end{document}
