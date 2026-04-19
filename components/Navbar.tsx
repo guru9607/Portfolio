@@ -71,7 +71,7 @@ export default function Navbar() {
                             Leadership
                           </a>
                         </Link>                      
-                        <Link href= "https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing" legacyBehavior passHref>
+                        <Link href= "https://drive.google.com/file/d/1A2safUZ3Qd63WqYwiV23NhB5RVN5qLyY/view?usp=sharing" legacyBehavior passHref>
                           <a
                             target="_blank"
                             className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold text-lg transition-all shadow-md hover:shadow-lg"
@@ -117,7 +117,7 @@ export default function Navbar() {
                   Leadership
                 </Disclosure.Button>
                 </Link>                
-                <Link href='https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing' legacyBehavior passHref>
+                <Link href='https://drive.google.com/file/d/1A2safUZ3Qd63WqYwiV23NhB5RVN5qLyY/view?usp=sharing' legacyBehavior passHref>
                 <Disclosure.Button
                   as="a"
                   className='bg-orange text-white dark:text-black block px-3 py-2 rounded-md text-lg font-RobotoC font-regular'
