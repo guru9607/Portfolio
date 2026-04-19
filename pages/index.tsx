@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Intro from '../components/Intro'
 import About from '@/components/About'
 import Experience from '@/components/Experience'
+import Leadership from '@/components/Leadership'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Intro />
       <About />
       <Experience />
+      <Leadership />
       <Skills />
       <Projects />
     </>

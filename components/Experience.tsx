@@ -27,6 +27,17 @@ const Experience = () => {
                 "Collaborated across frontend (Angular) and backend (Spring Boot) layers to troubleshoot and implement solutions."
             ],
             tech: ["Angular", "Spring Boot", "MySQL", "Java"]
+        },
+        {
+            company: "Digionus Marketing Agency",
+            role: "Freelancer & Software Engineer Intern",
+            duration: "March 2022 – August 2022",
+            description: [
+                "Independently developed and deployed a professional website, leading to subsequent recruitment as an intern.",
+                "Trained three interns for collaboratively developing an e-commerce site for AU Enterprises showcasing hardware products.",
+                "Leveraged design skills to create logos and banners for client branding and marketing materials."
+            ],
+            tech: ["Tailwind CSS", "WordPress", "Photoshop", "Web Design"]
         }
     ];
 

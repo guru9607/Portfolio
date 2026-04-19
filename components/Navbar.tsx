@@ -64,12 +64,11 @@ export default function Navbar() {
                             Experience
                           </a>
                         </Link>
-                        <Link href= "https://guru9607.hashnode.dev/" legacyBehavior passHref>
+                        <Link href= "#leadership" legacyBehavior passHref>
                           <a
-                            target="_blank"
                             className="cursor-pointer text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-3 rounded-md text-lg font-medium transition-colors"
                           >
-                            Blog
+                            Leadership
                           </a>
                         </Link>                      
                         <Link href= "https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing" legacyBehavior passHref>
@@ -102,14 +101,22 @@ export default function Navbar() {
                   Home
                 </Disclosure.Button>
                 </Link>
-                <Link href='https://guru9607.hashnode.dev/' legacyBehavior passHref>
+                <Link href='#experience' legacyBehavior passHref>
                 <Disclosure.Button
                   as="a"
                   className='text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base'
                 >
-                  Blog
+                  Experience
                 </Disclosure.Button>
-                </Link>               
+                </Link>
+                <Link href='#leadership' legacyBehavior passHref>
+                <Disclosure.Button
+                  as="a"
+                  className='text-black-700 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-lg font-Dosis font-base'
+                >
+                  Leadership
+                </Disclosure.Button>
+                </Link>                
                 <Link href='https://drive.google.com/file/d/1HqD3_qYBnQSerVCraRdYqRaxpf2kJDXP/view?usp=sharing' legacyBehavior passHref>
                 <Disclosure.Button
                   as="a"

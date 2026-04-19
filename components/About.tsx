@@ -29,11 +29,11 @@ const About = () => {
         <Fade direction="up" triggerOnce delay={200}>
           <div className="lg:px-3 lg:mt-12 ">
             <div className="font-Poppins font-normal mt-5 text-gray-700 dark:text-gray-300 lg:text-xl md:text-xl sm:text-lg leading-relaxed text-left">
-              <p className="mb-5">Hello Everyone 👋,</p>
-              <p className="mt-5">I'm a Software Engineer with a passion for building scalable, high-impact applications. Currently, I'm at <strong>Yardi Systems</strong> (joined July 2024), where I specialize in <strong>React, .NET, and MySQL</strong>.</p>
-              <p className="mt-5">I also serve as the <strong>Technical Director</strong> of <strong>interACT</strong>, a UN-aligned global youth initiative, where I architected and built their core digital platform from the ground up.</p>
-              <p className="mt-5">At Yardi, my work focuses on engineering mission-critical features for enterprise property management portals, including complex modules like <strong>Automated Payments, Portal Migrations, and secure Document Workflows</strong>.</p>
-              <p className="mt-5 mb-5"> I'm always eager to discuss emerging tech or collaborate on innovative projects. Let's connect!</p>
+              <p className="mb-5">Hey there! 👋</p>
+              <p className="mt-5">I'm a Software Engineer passionate about crafting elegant solutions to complex problems. I love building applications that not only work beautifully but also make a real impact for users and organizations.</p>
+              <p className="mt-5">As a <strong>Software Engineer at Yardi Systems</strong> (since July 2024), I work with <strong>React, .NET, and MySQL</strong> to engineer mission-critical features for enterprise property management platforms. I focus on building robust, scalable modules including <strong>Automated Payment Systems, Portal Migrations, and secure Document Workflows</strong>—the kind of work that powers real business needs.</p>
+              <p className="mt-5">Beyond my day job, I serve as <strong>Technical Director</strong> at <strong>interACT</strong>, a global UN-aligned youth initiative. This role has been incredibly rewarding—I architected and built their entire digital platform from scratch, helping create meaningful connections across borders.</p>
+              <p className="mt-5 mb-5">I'm genuinely excited about emerging technologies and love collaborating on projects that push boundaries. If you'd like to discuss tech, explore new ideas, or work on something together, I'd love to hear from you!</p>
             </div>
           </div>
         </Fade>

@@ -12,20 +12,20 @@ const Skills = () => {
         {
             id:1,
             title: "Frontend",
-            tags: ['React', 'Angular', 'Tailwind CSS', 'TypeScript'],
+            tags: ['React', 'Angular', 'Tailwind CSS', 'TypeScript', 'HTML5', 'CSS3', 'JavaScript', 'WordPress'],
             image: web,
             icon: <SiNextdotjs/>
         },
         {
             id:2,
-            title: "Backend & DB",
+            title: "Backend & Databases",
             tags: ['.NET', 'ASP.NET Core', 'C#', 'MySQL'],
             image: web,
             icon: <AiFillCode />
         },
         {
             id:3,
-            title: "College Stack",
+            title: "Languages & Frameworks",
             tags: ['Java', 'Spring Boot', 'C++', 'Python'],
             image: web,
             icon: <SiSpring />
@@ -43,13 +43,6 @@ const Skills = () => {
             tags: ['Postman', 'Visual Studio', 'VS Code', 'MySQL Workbench'],
             image: web,
             icon: <SiOctopusdeploy />
-        },
-        {   
-            id:6,
-            title: "Web Basics",
-            tags: ['HTML5', 'CSS3', 'JavaScript', 'WordPress'],
-            image: web,
-            icon: <SiTorbrowser />
         },
     ]
     return (

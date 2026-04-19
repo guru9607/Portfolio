@@ -3,8 +3,7 @@ import { Fade } from "react-awesome-reveal"
 import Link from "next/link"
 import Image from "next/image"
 import profile from "../images/pp.jpg"
-import { SiHashnode } from "react-icons/si"
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillMail } from "react-icons/ai"
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai"
 
 const Intro = () => {
   return (
@@ -33,7 +32,7 @@ const Intro = () => {
               </Fade>
               <Fade direction="down" triggerOnce delay={500}>
                 <p className="mt-2">
-                  guru9607 = [<span className="text-orange-600 dark:text-orange-400">'React'</span>, <span className="text-orange-600 dark:text-orange-400">'.NET'</span>, <span className="text-orange-600 dark:text-orange-400">'MySQL'</span>, <span className="text-orange-600 dark:text-orange-400">'C#'</span>]
+                  guru9607 = [<span className="text-orange-600 dark:text-orange-400">'React'</span>, <span className="text-orange-600 dark:text-orange-400">'.NET'</span>, <span className="text-orange-600 dark:text-orange-400">'Java'</span>, <span className="text-orange-600 dark:text-orange-400">'MySQL'</span>, <span className="text-orange-600 dark:text-orange-400">'C#'</span>]
                 </p>
               </Fade>
               <Fade direction="up" triggerOnce delay={700}>
@@ -47,19 +46,13 @@ const Intro = () => {
 
           <div className="lg:mr-10 py-8 flex justify-center lg:justify-start gap-6">
             <Fade direction="up" triggerOnce delay={900}>
-              <Link href="mailto:guruprasadgaikwad8@gmail.com" legacyBehavior passHref><a target="_blank" className="text-orange hover:scale-110 transition-transform"><AiFillMail size={35}/></a></Link>
+              <Link href="mailto:guruprasadgaikwad8@gmail.com" legacyBehavior passHref><a className="text-orange hover:scale-110 transition-transform"><AiFillMail size={35}/></a></Link>
             </Fade>
             <Fade direction="up" triggerOnce delay={900}>
               <Link href="https://www.linkedin.com/in/guru9607/" legacyBehavior passHref><a target="_blank" className="text-blue-600 hover:scale-110 transition-transform"><AiFillLinkedin size={35}/></a></Link>
             </Fade> 
             <Fade direction="up" triggerOnce delay={900}>
               <Link href="https://github.com/guru9607" legacyBehavior passHref><a target="_blank" className="text-gray-900 dark:text-white hover:scale-110 transition-transform"><AiFillGithub size={35}/></a></Link>
-            </Fade>
-            <Fade direction="up" triggerOnce delay={900}>
-              <Link href="https://twitter.com/Guru9272" legacyBehavior passHref><a target="_blank" className="text-blue-400 hover:scale-110 transition-transform"><AiFillTwitterCircle size={35}/></a></Link>
-            </Fade>
-            <Fade direction="up" triggerOnce delay={900}>
-              <Link href="https://blog.guruprasad.codes/" legacyBehavior passHref><a target="_blank" className="text-pink-600 hover:scale-110 transition-transform"><SiHashnode size={35} /></a></Link>
             </Fade>
           </div>
         </div>
