@@ -10,53 +10,53 @@ const Projects = () => {
   const projects = [       
     {
       id:1,
-      title: "interACT Platform",
-      description: "Technical Director for a UN-aligned global youth initiative. Architected and built the full platform from scratch, including participant portals and a module delivery system serving a global audience.",
-      link: "https://theinteract.org",
-      image: logo,
-      height: "240px",
-      width: "350px",
-      tags: ['Next.js', 'React', 'Node.js', 'Impact']
-    },
-    {
-      id:2,
-      title: "Enterprise Property Portals @ Yardi",
-      description: "Engineering mission-critical customer portals. Developed high-complexity modules for Automated Payments, Portal Migrations, and secure Document Workflows using React and .NET.",
-      link: "#",
-      image: logo,
-      height: "240px",
-      width: "350px",
-      tags: ['React', '.NET', 'MySQL', 'Enterprise']
-    },
-    {
-      id:3,
-      title: "Tastmap - Live Food Ordering",
-      description: "A dynamic React application integrating Swiggy's live API. Features real-time order data fetching, custom hooks for modular state management, and a responsive Tailwind CSS interface.",
-      link: "https://github.com/guru9607/Food-ordering-app",
-      image: swiggy,
-      height: "240px",
-      width: "350px",
-      tags: ['React', 'Swiggy API', 'Tailwind']
-    },
-    {
-      id:4,
-      title: "AWS Secure VPC Architecture",
-      description: "Architected a multi-AZ AWS VPC with public/private subnets, Auto-Scaling groups, and NAT gateways. Ensured high availability and security for cloud-native applications.",
+      title: "Distributed Patient Management System",
+      description: "Distributed healthcare application with Spring Boot microservices for Auth, Patient Management, Billing & Analytics. Uses Apache Kafka, gRPC, Docker, AWS ECS Fargate, and Amazon RDS PostgreSQL.",
       link: "#",
       image: aws,
       height: "240px",
       width: "350px",
-      tags: ['AWS', 'VPC', 'Infrastructure']
+      tags: ['Spring Boot', 'Kafka', 'gRPC', 'AWS ECS', 'Docker', 'PostgreSQL']
+    },
+    {
+      id:2,
+      title: "interACT Global Platform",
+      description: "Live event management platform serving 40+ facilitators across 150+ events & 4,000+ participant registrations. Built with Next.js, Supabase Auth, PostgreSQL RLS, and automated certificate generation.",
+      link: "https://theinteract.org",
+      image: logo,
+      height: "240px",
+      width: "350px",
+      tags: ['Next.js', 'PostgreSQL', 'Supabase', 'Tailwind CSS']
+    },
+    {
+      id:3,
+      title: "High-Scale Payment Engine @ Yardi",
+      description: "Refactored payment processing with Factory pattern & Spring singleton HTTP client (P99 latency 1.8s -> 120ms). Implemented Autopay with Redis distributed locking and keyset pagination.",
+      link: "#",
+      image: logo,
+      height: "240px",
+      width: "350px",
+      tags: ['Java', 'Spring Boot', 'Redis', 'MySQL', 'AWS S3']
+    },
+    {
+      id:4,
+      title: "Tastmap - Live Food Ordering App",
+      description: "Dynamic React application integrating Swiggy's live API with custom hooks for state management and modular UI components.",
+      link: "https://github.com/guru9607/Food-ordering-app",
+      image: swiggy,
+      height: "240px",
+      width: "350px",
+      tags: ['React', 'REST API', 'Tailwind CSS']
     },
     {
       id:5,
-      title: "GitHub Repo Manager",
-      description: "Automated tool leveraging the GitHub API to manage repository access and user listings. Built with Bash for efficient CLI-based resource management.",
+      title: "GitHub Repo Automation Manager",
+      description: "CLI tool leveraging GitHub API and Shell Scripting for automated repository access controls and team resource management.",
       link: "https://github.com/guru9607/Shell-Scripting-Projects",
       image: github,
       height: "240px",
       width: "350px",
-      tags: ['Bash', 'GitHub API', 'Automation']
+      tags: ['Bash', 'GitHub API', 'DevOps']
     },
   ]
   return (

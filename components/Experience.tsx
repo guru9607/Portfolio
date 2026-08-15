@@ -5,28 +5,28 @@ const Experience = () => {
     const experiences = [
         {
             company: "Yardi Systems",
-            role: "Software Engineer",
+            role: "Software Development Engineer - I",
             duration: "July 2024 – Present",
             description: [
-                "Formally recognized for high-quality contributions within the first year on an enterprise platform.",
-                "Contributed to the complete portal migration from VB.NET to C# .NET and React -- a high-trust modernization effort on a live multi-tenant platform.",
-                "Implemented the Autopay feature end-to-end, enabling automated recurring rent collection for students.",
-                "Built full-stack features including roommate matching, multi-file document upload, and maintenance request handling.",
-                "Resolved a critical stress-testing failure that was breaking the OLE flow and causing payment failures.",
-                "Eliminated redundant API calls, improving platform-wide data-fetching efficiency for lakhs of concurrent users."
+                "Refactored payment processing using the Factory pattern and a Spring-managed singleton HTTP client, eliminating per-request client creation and resolving payment failures under stress testing while reducing P99 latency from 1.8s to 120ms.",
+                "Implemented Autopay across Resident and Guarantor portals, enforcing a single active configuration per lease and using Redis-based distributed locking to prevent race conditions during concurrent requests from both portals.",
+                "Replaced offset pagination with keyset (cursor-based) pagination for the Space Selection module, reducing API latency by 30%.",
+                "Optimized PDF upload and preview workflows using AWS S3 presigned URLs and Page-1 extraction, dropping preview rendering times from 5s to less than 200ms and reducing server memory load by 70%.",
+                "Optimized developer workflows by establishing a custom .cursorrules framework, cutting LLM token usage by 20%."
             ],
-            tech: ["React", ".NET", "C#", "MySQL", "VB.NET"]
+            tech: ["Java", "Spring Boot", "Angular", "REST", "MySQL", "Kafka", "AWS", "Redis"]
         },
         {
             company: "Infosys Springboard",
             role: "Software Engineer Intern",
-            duration: "April 2024 – June 2024",
+            duration: "Mar 2024 – Jun 2024",
             description: [
-                "Selected as one of the interns from a pool of 35,000+ applicants.",
-                "Contributed to the development of a full-stack matrimonial website as part of a team of four.",
-                "Collaborated across frontend (Angular) and backend (Spring Boot) layers to troubleshoot and implement solutions."
+                "Built Spring Boot REST APIs for a matrimonial application, handling user registration, authentication, and profile workflows.",
+                "Engineered the Show Interest module to manage sent and received profile requests via dedicated backend endpoints.",
+                "Structured relational data models using Spring Data JPA, Hibernate, and MySQL for profile persistence and queries.",
+                "Integrated Spring Boot APIs with frontend to enable end-to-end user and profile management workflows."
             ],
-            tech: ["Angular", "Spring Boot", "MySQL", "Java"]
+            tech: ["Java", "Spring Boot", "MySQL", "Angular", "JPA/Hibernate"]
         },
         {
             company: "Digionus Marketing Agency",

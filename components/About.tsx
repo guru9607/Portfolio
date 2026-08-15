@@ -30,10 +30,9 @@ const About = () => {
           <div className="lg:px-3 lg:mt-12 ">
             <div className="font-Poppins font-normal mt-5 text-gray-700 dark:text-gray-300 lg:text-xl md:text-xl sm:text-lg leading-relaxed text-left">
               <p className="mb-5">Namaste! I am Guruprasad Gaikwad 👋🏻</p>
-              <p className="mt-5">I'm a Software Engineer at Yardi Systems, where I've been building features for enterprise property management platforms since July 2024 - things like automated payment systems, portal migrations, and document workflows that run at scale for lakhs of students.</p>
-              <p className="mt-5">Got formally recognized for my work, shipped an end-to-end Autopay feature, and was part of a live migration from VB.NET to C# .NET on a platform people actually depend on daily.</p>
-              <p className="mt-5">Outside of work, I'm the Technical Director at interACT - a UN-aligned youth initiative where I built their entire platform from scratch. Totally pro-bono, but one of the most rewarding things I've worked on.</p>
-              <p className="mt-5 mb-5">I'm always looking to grow - currently going deeper on system design and C#/.NET. If you're working on something interesting or just want to connect, feel free to reach out.</p>
+              <p className="mt-5">I'm a Software Development Engineer - I at Yardi Systems in Pune, specializing in Java, Spring Boot, REST APIs, and database optimization. Since July 2024, I've engineered high-scale backend solutions, refactoring payment processing to cut P99 latency from 1.8s to 120ms and implementing Redis distributed locking for Autopay systems.</p>
+              <p className="mt-5">I hold a B.Tech in Computer Science from PCET's NCER (CGPA: 8.51). Beyond my core engineering responsibilities, I serve as Technical Director at interACT — a UN-aligned youth initiative where I built a global event platform empowering 40+ facilitators worldwide across 150+ events and 4,000+ registrations using Next.js and Supabase PostgreSQL RLS.</p>
+              <p className="mt-5 mb-5">I'm passionate about distributed systems, event-driven architectures with Apache Kafka, and cloud infrastructure on AWS. Feel free to connect!</p>
             </div>
           </div>
         </Fade>

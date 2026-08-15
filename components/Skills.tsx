@@ -11,38 +11,38 @@ const Skills = () => {
     const skills = [
         {
             id:1,
-            title: "Frontend",
-            tags: ['React', 'Angular', 'Tailwind CSS', 'TypeScript', 'HTML5', 'CSS3', 'JavaScript', 'WordPress'],
-            image: web,
-            icon: <SiNextdotjs/>
-        },
-        {
-            id:2,
-            title: "Backend & Databases",
-            tags: ['.NET', 'ASP.NET Core', 'C#', 'MySQL'],
+            title: "Languages & Scripting",
+            tags: ['Java', 'SQL', 'JavaScript', 'TypeScript'],
             image: web,
             icon: <AiFillCode />
         },
         {
-            id:3,
-            title: "Languages & Frameworks",
-            tags: ['Java', 'Spring Boot', 'C++', 'Python'],
+            id:2,
+            title: "Backend Frameworks",
+            tags: ['Spring Boot', 'Spring Security', 'REST APIs', 'JPA/Hibernate'],
             image: web,
             icon: <SiSpring />
         },
         {
-            id:4,
-            title: "DevOps & Cloud",
-            tags: ['AWS', 'Docker', 'Git', 'GitHub'],
+            id:3,
+            title: "Frontend Engineering",
+            tags: ['Angular', 'Next.js', 'React', 'HTML5', 'CSS3', 'Tailwind CSS'],
             image: web,
-            icon: <FaDocker />
+            icon: <SiNextdotjs />
+        },
+        {
+            id:4,
+            title: "Databases & Messaging",
+            tags: ['MySQL', 'PostgreSQL', 'Redis', 'Apache Kafka'],
+            image: web,
+            icon: <SiOctopusdeploy />
         },
         {
             id:5,
-            title: "Tools",
-            tags: ['Postman', 'Visual Studio', 'VS Code', 'MySQL Workbench'],
+            title: "DevOps & Cloud",
+            tags: ['AWS S3', 'AWS ECS/Fargate', 'Docker', 'Git'],
             image: web,
-            icon: <SiOctopusdeploy />
+            icon: <FaDocker />
         },
     ]
     return (

@@ -4,27 +4,25 @@ import { Fade } from 'react-awesome-reveal';
 const Leadership = () => {
     const leadership = [
         {
-            organization: "interACT",
-            role: "Technical Director (Pro-bono)",
+            organization: "interACT (theinteract.org)",
+            role: "Technical Director (Volunteer) — UN-aligned youth initiative",
             duration: "July 2023 – Present",
             description: [
-                "Lead Technical Director of a UN-aligned global youth initiative focused on inner resilience, mental well-being, and sustainable development.",
-                "Architected and built the entire digital platform from scratch, including event management portals, certificate generation systems, participant authentication, and interactive module delivery for thousands of users across multiple countries.",
-                "Implemented custom portals for event management, enabling seamless organization of workshops, sessions, and community gatherings with real-time registration and attendance tracking.",
-                "Developed automated certificate generation systems that dynamically create personalized certificates for participants upon completion of modules and sessions.",
-                "Mentored cross-functional teams on development best practices, code quality, and scalable system design while establishing workflows for sustained platform growth and maintenance."
+                "Built a live global event management platform used by 40+ facilitators worldwide, supporting 150+ events and 4,000+ participant registrations, centralizing event scheduling, registration, feedback, and impact data for reporting to the United Nations.",
+                "Implemented role-based access for facilitators and admins using Supabase Authentication and PostgreSQL Row Level Security (RLS), enforcing event ownership and administrative access at the database level.",
+                "Automated participant workflows including post-event feedback, participant data exports, event media management, and dynamic certificate generation using reusable templates and event/session data."
             ],
-            tech: ["Next.js", "React", "Leadership", "Mentorship", "Global Impact"]
+            tech: ["Next.js", "PostgreSQL", "Supabase", "Tailwind CSS"]
         },
         {
-            organization: "Youth Wellness Initiatives",
-            role: "Session Facilitator",
-            duration: "2022 – Present",
+            organization: "Extracurricular & Campus Leadership",
+            role: "Coordinator & Session Facilitator",
+            duration: "2020 – Present",
             description: [
-                "Led meditation and digital wellness sessions in schools and colleges across India, promoting mental well-being, stress management, and sustainable development practices among youth.",
-                "Developed interactive modules and workshops focused on mindfulness, emotional resilience, and digital detox strategies to support holistic youth development."
+                "Coordinated campus placement operations and corporate outreach for a volunteer team of 200+ members.",
+                "Conducted 80+ digital wellness workshops across academic institutions, reaching over 3,000 participants."
             ],
-            tech: ["Meditation", "Digital Wellness", "Youth Development", "Mindfulness"]
+            tech: ["Leadership", "Operations", "Digital Wellness", "Community Outreach"]
         }
     ];
 

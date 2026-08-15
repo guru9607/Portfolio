@@ -32,12 +32,12 @@ const Intro = () => {
               </Fade>
               <Fade direction="down" triggerOnce delay={500}>
                 <p className="mt-2">
-                  guru9607 = [<span className="text-orange-600 dark:text-orange-400">'.NET'</span>, <span className="text-orange-600 dark:text-orange-400">'C#'</span>, <span className="text-orange-600 dark:text-orange-400">'React'</span>, <span className="text-orange-600 dark:text-orange-400">'Spring Boot'</span>, <span className="text-orange-600 dark:text-orange-400">'MySQL'</span>]
+                  guru9607 = [<span className="text-orange-600 dark:text-orange-400">'Java'</span>, <span className="text-orange-600 dark:text-orange-400">'Spring Boot'</span>, <span className="text-orange-600 dark:text-orange-400">'Kafka'</span>, <span className="text-orange-600 dark:text-orange-400">'Angular'</span>, <span className="text-orange-600 dark:text-orange-400">'Next.js'</span>, <span className="text-orange-600 dark:text-orange-400">'AWS'</span>]
                 </p>
               </Fade>
               <Fade direction="up" triggerOnce delay={700}>
                 <p className="mt-2 text-wrap">
-                  guru9607.append(<span className="text-orange-600 dark:text-orange-400">'Software Engineer @ Yardi'</span>)
+                  guru9607.append(<span className="text-orange-600 dark:text-orange-400">'Software Development Engineer - I @ Yardi'</span>)
                 </p>
                 <p className="mt-3 text-gray-400 text-sm italic"># Driven by code, inspired by impact</p>
               </Fade>
