@@ -1,15 +1,12 @@
 %-------------------------
-% Resume in Latex
-% Author : Guruprasad Avinash Gaikwad
-% License : MIT
+% Professional Full-Stack Engineer Resume - Single Page ATS
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
@@ -18,9 +15,6 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -29,158 +23,158 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Balanced margins for natural white space
+% Tight, balanced margins to guarantee 1-page fit
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.0in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.3in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.25in}
 
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Clean section formatting
+% Section formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+  \vspace{-8pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 \pdfgentounicode=1
 
-% Standard custom commands with comfortable spacing
+% Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item\small{{#1 \vspace{-1.5pt}}}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{-1pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{\small #2} \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \vspace{-1pt}\item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={\tiny$\bullet$}]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
 %-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%  RESUME CONTENT STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%----------HEADING-----------------
-\vspace*{0.5em}
-
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Guruprasad Avinash Gaikwad} & \faEnvelope\ \href{mailto:guruprasadgaikwad8@gmail.com}{guruprasadgaikwad8@gmail.com} \\
-  \faGlobe\ \href{https://itsguru.netlify.app}{itsguru.netlify.app} &
-  \faLinkedin\ \href{https://linkedin.com/in/guru9607/}{linkedin.com/in/guru9607} \\
-  \faGithub\ \href{https://github.com/guru9607}{github.com/guru9607} &
-\end{tabular*}
+%----------HEADER SECTION-----------------
+\begin{center}
+    \textbf{\Large Guruprasad Avinash Gaikwad} \\ \vspace{2pt}
+    \small 
+    \faPhone\ \href{tel:+919607700199}{+91 9607700199} $|$ 
+    \faEnvelope\ \href{mailto:guruprasadgaikwad8@gmail.com}{guruprasadgaikwad8@gmail.com} $|$ 
+    \faMapMarker*\ Pune, Maharashtra, India
+\end{center}
+\vspace{-12pt}
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
-\begin{itemize}[left=-0.07in, label={}]
-    \setlength{\itemsep}{-1pt}
+\begin{itemize}[leftmargin=0.0in, label={}]
+    \setlength{\itemsep}{-2pt}
     \small{
-      \item \textbf{Languages}: C\#, Java, SQL
-      \item \textbf{Technologies}: .NET, Spring Boot, React, REST APIs
-      \item \textbf{Databases}: MySQL
-      \item \textbf{Developer Tools}: Git, GitHub, Postman, Visual Studio
+      \item \textbf{Frameworks}: Spring Boot, Spring MVC
+      \item \textbf{API Development}: RESTful Services, gRPC
+      \item \textbf{Database}: MySQL, SQL
+      \item \textbf{Observability}: Grafana, Kibana
+      \item \textbf{Build \& Version Control}: Maven, Git
+      \item \textbf{Testing}: JUnit
+      \item \textbf{Microservices \& Messaging}: Apache Kafka, Docker
+      \item \textbf{Cloud \& Frontend}: AWS (S3, CDK), React, JavaScript, HTML5/CSS3
     }
 \end{itemize}
-\vspace{-10pt}
+\vspace{-8pt}
 
-%-----------EXPERIENCE-----------
+%-----------PROFESSIONAL EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
 
-  \resumeSubheading
-    {Yardi Systems}{July 2024 -- Present}
-    {Software Engineer --- .NET, C\#, React, MySQL}{Pune, Maharashtra}
+\resumeSubheading
+  {Yardi Systems \textnormal{$|$ \emph{Java, Spring Boot, React, REST, MySQL, AWS S3, Grafana, Kibana}}}{July 2024 -- Present}
+  {Software Development Engineer - I}{Pune, India}
   \resumeItemListStart
-    \resumeItem{Contributed to a full portal migration from VB.NET to C\# .NET and React for a live multi-tenant platform serving \textbf{enterprise real estate clients} and \textbf{100,000+} active users.}
-    \resumeItem{Implemented an end-to-end \textbf{Autopay feature}, enabling automated recurring rent collection and directly strengthening revenue predictability for enterprise property management clients.}
-    \resumeItem{Resolved a \textbf{critical stress-testing failure} in the payment processing API call, preventing  payment failures before production release.}
-    \resumeItem{Optimized platform efficiency by fixing cross-repo data sync defects and eliminating redundant API calls.}
-    \resumeItem{Participated actively in pull request gates, conducting code reviews and authoring technical documentation.}
+    \resumeItem{Fixed a payment service reliability issue during beta-phase stress testing (500+ concurrent requests) by refactoring HTTP client lifecycle management, cutting \textbf{failure rate from 9.4\% to 0.2\%} and \textbf{P99 latency from 1,800ms to 120ms.}}
+    \resumeItem{Implemented the \textbf{Autopay flow} across Resident and Guarantor portals, enforcing a \textbf{single active Autopay configuration} per installment and persisting configuration details in the CMPI.}
+\resumeItem{Implemented the Space Selection data-fetching layer with keyset pagination, dropping API latency from \textbf{$\sim$7s} to \textbf{$\sim$1s} for \textbf{1,000+ room listings}.}
+    \resumeItem{Built the PDF upload and preview workflow using \textbf{AWS S3 presigned URLs} for direct client-to-S3 uploads and \textbf{page-1 extraction}, achieving preview response times under \textbf{200ms}.}
+    \resumeItem{Designed and rolled out custom \textbf{.cursorrules} for team-wide development, optimizing AI coding context and reducing \textbf{LLM token usage}.}
   \resumeItemListEnd
 
-  \resumeSubheading
-    {Infosys Springboard}{April 2024 -- June 2024}
-    {Software Engineer Intern --- React, Spring Boot, MySQL}{Pune, Maharashtra}
+\resumeSubheading
+  {Infosys Springboard \textnormal{$|$ \emph{Java, Spring Boot, MySQL, Rect}}}{Mar 2024 -- Jun 2024}
+  {Software Engineer Intern}{Remote}
   \resumeItemListStart
-    \resumeItem{Selected from a competitive pool of 35,000+ applicants to develop a full-stack matrimonial platform.}
-    \resumeItem{Collaborated in a team of four to build secure RESTful APIs in Spring Boot, managing state transitions and integrating database operations with MySQL.}
+    \resumeItem{Built REST APIs in Spring Boot to power bride and groom listing pages, enabling users to browse and view potential match profiles.}
+    \resumeItem{Developed the Show Interest module, with backend endpoints to send, receive, and view profile requests.}
+    \resumeItem{Wrote JUnit tests to validate core service logic and catch issues before integration.}
+    \resumeItem{Collaborated within a small team, participating in peer code reviews and iterative feature delivery}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-\vspace{-10pt}
+\vspace{-8pt}
 
-%-----------PROJECTS-----------
+%-----------ENGINEERING PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
 
-  \resumeProjectHeading
-    {\textbf{AuthService} $|$ \emph{Java, Spring Boot, Spring Security, JWT, MySQL}}{}
+\resumeProjectHeading
+    {\textbf{MediSync} $|$ \emph{Java, Spring Boot, Apache Kafka, gRPC, AWS, PostgreSQL, Docker}}{}
   \resumeItemListStart
-    \resumeItem{Developed a secure RESTful authentication service using Spring Boot and JWT, implementing role-based authorization, BCrypt hashing, and persistent refresh tokens in MySQL.}
-  \resumeItemListEnd
-   \vspace{-10pt}
-  \resumeProjectHeading
-    {\textbf{Multithreaded Java Web Server} $|$ \emph{Java, Socket Programming, Multi-threading, Thread Pools}}{}
-  \resumeItemListStart
-    \resumeItem{Developed a custom TCP server in Java using socket programming and ExecutorService (ThreadPool) to parse HTTP requests and serve static files concurrently.}
+    \resumeItem{Architected a healthcare platform as five independently deployable \textbf{Spring Boot} microservices (Auth, Patient, Billing, Analytics, API Gateway), each owning its own PostgreSQL data store.}
+    \resumeItem{Applied a \textbf{polyglot communication strategy}: \textbf{gRPC} for low-latency synchronous calls between Patient and Billing services, and \textbf{Apache Kafka} for event-driven, decoupled updates to Billing and Analytics on patient changes.}
+    \resumeItem{Enforced stateless authentication across all services with \textbf{Spring Security} and \textbf{JWT}, validated at the \textbf{API Gateway} before requests reached internal services.}
+    \resumeItem{Defined the full infrastructure as code using \textbf{AWS CDK} (ECS, VPC, RDS), deployed and validated locally with \textbf{LocalStack} to mirror production topology without cloud cost.}
+    \resumeItem{Containerized every service with \textbf{Docker} and wrote a dedicated integration-test suite to validate cross-service request flows end-to-end.}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-\vspace{-10pt}
+\vspace{-8pt}
+
+%-----------LEADERSHIP & ENGAGEMENT-----------
+\section{Leadership}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {interACT \href{https://www.theinteract.org/}{\small - theinteract.org} \textnormal{$|$ \emph{Next.js, PostgreSQL, Supabase, Tailwind CSS}}}{July 2023 -- Present}
+    {Lead Volunteer -- \textbf{United Nations} aligned youth initiative}{Remote, Global}
+  \resumeItemListStart
+    \resumeItem{Built a live global event management platform used by \textbf{40+ facilitators}, supporting \textbf{150+ events and 4,000+ participant registrations}, centralizing event scheduling, registration, feedback, and impact data for reporting to the \textbf{United Nations}.}
+    \resumeItem{Implemented role-based access for facilitators and admins using \textbf{Supabase Authentication and PostgreSQL Row Level Security (RLS)}, enforcing event ownership and administrative access at the database level.}
+    \resumeItem{Automated participant workflows including post-event feedback, participant data exports, event media management, and dynamic certificate generation using reusable templates.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-8pt}
 
 %-----------EDUCATION-----------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Pimpri Chinchwad Education Trust's NCER}{Sep. 2020 -- June 2024}
-      {B.Tech in Computer Science; CGPA: 8.51}{Pune, Maharashtra}
-  \resumeSubHeadingListEnd
-\vspace{-5pt}
-
-%-----------LEADERSHIP & VOLUNTEER-----------
-\section{Leadership}
 \resumeSubHeadingListStart
-
   \resumeSubheading
-    {interACT}{July 2023 -- Present}
-    {Technical Director (Pro-bono) --- Next.js, React, Supabase, Vercel}{Remote, Global}
-  \resumeItemListStart
-    \resumeItem{Implemented a global event management portal from scratch, implementing secure role-based access control, facilitator onboarding pipelines, and automated certificate issuance to eliminate manual administrative workflows.}
-  \resumeItemListEnd
+    {Pimpri Chinchwad Education Trust's NCER}{Sep. 2020 -- June 2024}
+    {Bachelor of Technology in Computer Science (CGPA: 8.51)}{Pune, India}
 \resumeSubHeadingListEnd
-\vspace{-15pt}
+\vspace{-8pt}
 
-%-----------LEADERSHIP / EXTRACURRICULAR-----------
+%-----------EXTRACURRICULAR-----------
 \section{Extracurricular}
-\begin{itemize}[left=0.05in, label={\textbullet}]
+\begin{itemize}[leftmargin=0.15in, label={\tiny$\bullet$}]
   \setlength{\itemsep}{-2pt}
-  \item \small{Managed a team of \textbf{200+ volunteers} to drive placement operations for the college Training and Placement Cell.}
-  \item \small{Coordinated over \textbf{80+ meditation and digital wellness workshops} across schools and colleges, benefiting \textbf{3,000+ individuals}.}
+  \small{
+    \item Coordinated campus placement operations with volunteer team of \textbf{200+ members}.
+    \item Conducted \textbf{50+} digital wellness workshops across schools and colleges, reaching over \textbf{20000 participants}.
+  }
 \end{itemize}
-
-\vspace{3pt}
-\textbf{\small Hobbies:} \small{Meditation, Chess}
 
 \end{document}

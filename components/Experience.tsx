@@ -14,7 +14,7 @@ const Experience = () => {
                 "Optimized PDF upload and preview workflows using AWS S3 presigned URLs and Page-1 extraction, dropping preview rendering times from 5s to less than 200ms and reducing server memory load by 70%.",
                 "Optimized developer workflows by establishing a custom .cursorrules framework, cutting LLM token usage by 20%."
             ],
-            tech: ["Java", "Spring Boot", "Angular", "REST", "MySQL", "Kafka", "AWS", "Redis"]
+            tech: ["Java", "Spring Boot", "React", "REST", "MySQL", "Kafka", "AWS", "Redis"]
         },
         {
             company: "Infosys Springboard",
@@ -26,7 +26,7 @@ const Experience = () => {
                 "Structured relational data models using Spring Data JPA, Hibernate, and MySQL for profile persistence and queries.",
                 "Integrated Spring Boot APIs with frontend to enable end-to-end user and profile management workflows."
             ],
-            tech: ["Java", "Spring Boot", "MySQL", "Angular", "JPA/Hibernate"]
+            tech: ["Java", "Spring Boot", "MySQL", "React", "JPA/Hibernate"]
         },
         {
             company: "Digionus Marketing Agency",

@@ -26,7 +26,7 @@ const Skills = () => {
         {
             id:3,
             title: "Frontend Engineering",
-            tags: ['Angular', 'Next.js', 'React', 'HTML5', 'CSS3', 'Tailwind CSS'],
+            tags: ['React', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS'],
             image: web,
             icon: <SiNextdotjs />
         },
